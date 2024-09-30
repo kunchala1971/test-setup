@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Class1 from './Class1.js';
 const App = () => {
   return (
     <div>
@@ -11,6 +11,7 @@ const App = () => {
         data-testid="username"
       />
 			<button name="btnsave">Save</button>
+			<Class1/>
     </div>
   );
 };
